@@ -60,6 +60,7 @@ aside.form {
   padding: 0 30px;
 }
 
+
 aside.form h2 {
   text-align: right;
 }
@@ -107,6 +108,9 @@ aside.form form button[type="submit"]:hover {
   background: var(--primary-gray);
   cursor: wait;
 }
+
+
+
 
 /* Errors */
 #error {
@@ -170,11 +174,12 @@ aside.form form button[type="submit"]:hover {
   border: 0;
   border-radius: 5px;
   border-style: solid;
-  color: #fbfbff;
+  color: black;
   font-weight: bold;
   margin-top: 10px;
   padding: 10px 20px;
-  cursor: not-allowed;
+  /* cursor: not-allowed; */
+  
 }
 
 .guest-list .stock {
@@ -217,4 +222,9 @@ aside.form form button[type="submit"]:hover {
   .wrapper aside.form {
     margin: 50px auto;
   }
+}
+
+#isVip{
+  color:black;
+  text-align: center;
 }
