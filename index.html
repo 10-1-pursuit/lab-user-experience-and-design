@@ -23,20 +23,18 @@
   
         <form id="form">
           <label>
-
-            <input type="text" name="name" id="name" />
+            Name:<input type="text" name="name" id="name" placeholder="Name..." />
           </label>
           <label>
-
-            <select name="isVip" id="isVip">
-              <option value=""></option>
+            VIP:<select name="isVip" id="isVip">
+              <option value="vip-status" disabled selected>Select VIP Status</option>
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
           </label>
           <div id="error"></div>
           <button type="submit" id="submit">Submit</button>
-          <button type="button" id="clear">Reset</button>
+          <button type="reset" id="clear">Reset</button>
 
         </form>
       </aside>
@@ -47,7 +45,7 @@
           alt="Person 1"
         />
           <div>
-            <h2><span>   </span>Person 1</h2>
+            <h2><span>  </span>Person 1</h2>
             <div class="status">
               <button class="in-vip vip">Make VIP</button>
             <button type="button" class="bounce">Bounce</button>
