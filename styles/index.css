@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -34,7 +36,7 @@ button {
 nav {
   background: var(--secondary-background);
   border-bottom: 3px solid var(--primary-highlight);
-  padding: 50px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -118,7 +120,7 @@ aside.form form button[type="submit"]:hover {
 }
 
 #error li {
-  color: var(--primary-color);
+  color: var(--primary-background);
   margin: 5px 0;
 }
 
@@ -170,7 +172,7 @@ aside.form form button[type="submit"]:hover {
   border: 0;
   border-radius: 5px;
   border-style: solid;
-  color: #fbfbff;
+  color:black;
   font-weight: bold;
   margin-top: 10px;
   padding: 10px 20px;
@@ -191,9 +193,6 @@ aside.form form button[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.out-vip {
 }
 
 .in-vip {
@@ -217,4 +216,14 @@ aside.form form button[type="submit"]:hover {
   .wrapper aside.form {
     margin: 50px auto;
   }
+}
+
+#isVip,
+#name {
+  color:black;
+  text-align: center;
+}
+aside.form form button:hover,
+button:hover {
+  background: var(--secondary-highlight);
 }
