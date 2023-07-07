@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🤩</text></svg>">
+    <link rel="icon" href="data:image/svg+xml" svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🤩</text></svg>
     <title>VIP Guest List Application</title>
     <link rel="stylesheet" href="./styles/index.css" />
     <script defer src="./scripts/bounce.js"></script>
@@ -22,11 +22,12 @@
       <aside class="form">
   
         <form id="form">
+          <label><strong>Enter Guest Name</strong></label>
           <label>
 
             <input type="text" name="name" id="name" />
           </label>
-          <label>
+          <label><strong>Are You a VIP?</strong></label>
 
             <select name="isVip" id="isVip">
               <option value=""></option>
@@ -36,7 +37,7 @@
           </label>
           <div id="error"></div>
           <button type="submit" id="submit">Submit</button>
-          <button type="button" id="clear">Reset</button>
+          <button type="delete" id="clear">Reset</button>
 
         </form>
       </aside>
@@ -50,7 +51,7 @@
             <h2><span>   </span>Person 1</h2>
             <div class="status">
               <button class="in-vip vip">Make VIP</button>
-            <button type="button" class="bounce">Bounce</button>
+            <button type="button" class="bounce">Remove From Guest List</button>
           </div>
         </article>
         <article class="guest">
@@ -61,10 +62,10 @@
           <div>
             <h2><span>⭐️</span>Person 2</h2>
             <div class="status">
-              <button class="out-vip vip">
-                Remove VIP
-              </button>
-            <button type="button" class="bounce">Bounce</button>
+              <button class="out-vip"> Remove VIP </button>
+               
+             
+            <button type="button" class="bounce">Remove From Guest List</button>
           </div>
           </div>
         </article>
