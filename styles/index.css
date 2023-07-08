@@ -28,6 +28,7 @@ html {
 
 button {
   cursor: pointer;
+  color: black;
 }
 
 /* Header */
@@ -76,17 +77,17 @@ aside.form form select {
   border-radius: 0;
   border-style: solid;
   box-sizing: border-box;
-  color: ghostwhite;
+  color: black;
   display: block;
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  color: aliceblue;
+  color: black;
 }
 
 aside.form form button,
 button {
-  background: var(--primary-highlight);
+  background: white;
   border: 0;
   border-radius: 5px;
   border-style: solid;
@@ -95,16 +96,16 @@ button {
 }
 
 aside.form form button:hover {
-  background: var(--secondary-highlight);
+  background: white;
   cursor: no-drop;
 }
 
 aside.form form button[type="submit"] {
-  background: var(--primary-gray);
+  background:white
 }
 
 aside.form form button[type="submit"]:hover {
-  background: var(--primary-gray);
+  background: green;
   cursor: wait;
 }
 
@@ -194,17 +195,33 @@ aside.form form button[type="submit"]:hover {
 }
 
 .out-vip {
+  color: black;
 }
 
 .in-vip {
-  background-color: var(--primary-highlight);
+  background-color: black;
 }
 
 .bounce {
-  color: var(--secondary-highlight);
+  color: black;
+
 }
+
 .guest-list {
   color: var(--danger);
+}
+
+
+#vip {
+  color: black;
+}
+
+#remove {
+  color: red;
+}
+
+.vip {
+  color: black;
 }
 
 /* Responsive */
