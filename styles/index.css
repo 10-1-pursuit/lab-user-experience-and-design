@@ -11,7 +11,7 @@
   --old-midnight: #073b4c;
   --primary-background: var(--old-midnight);
   --secondary-background: var(--electric-mint);
-  --primary-color: var(--sage-sage);
+  --primary-color: var(--old-midnight);
   --secondary-color: var(--gold-soundz);
   --dark-color: var(--old-midnight);
   --primary-highlight: var(--gold-soundz);
@@ -47,6 +47,7 @@ nav h1 {
   font-weight: bold;
 }
 
+
 /* Main section */
 .wrapper {
   display: grid;
@@ -72,16 +73,16 @@ aside.form form label {
 
 aside.form form input,
 aside.form form select {
-  border: 2px solid #ccc;
+  border: 2px solid #4b4242;
   border-radius: 0;
   border-style: solid;
   box-sizing: border-box;
-  color: ghostwhite;
+  color: black;
   display: block;
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  color: aliceblue;
+
 }
 
 aside.form form button,
@@ -170,7 +171,7 @@ aside.form form button[type="submit"]:hover {
   border: 0;
   border-radius: 5px;
   border-style: solid;
-  color: #fbfbff;
+  color: navy;
   font-weight: bold;
   margin-top: 10px;
   padding: 10px 20px;
@@ -191,10 +192,15 @@ aside.form form button[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
-.out-vip {
+#isVip {
+  color: black;
+
 }
+
+.out-vip {}
 
 .in-vip {
   background-color: var(--primary-highlight);
@@ -203,6 +209,7 @@ aside.form form button[type="submit"]:hover {
 .bounce {
   color: var(--secondary-highlight);
 }
+
 .guest-list {
   color: var(--danger);
 }
