@@ -76,13 +76,13 @@ aside.form form select {
   border-radius: 0;
   border-style: solid;
   box-sizing: border-box;
-  color: ghostwhite;
+  /*color: ghostwhite*/
   display: block;
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  color: aliceblue;
-}
+  /*color: aliceblue*/
+  font: green;
 
 aside.form form button,
 button {
@@ -94,10 +94,10 @@ button {
   padding: 10px 50px;
 }
 
-aside.form form button:hover {
+/*aside.form form button:hover {
   background: var(--secondary-highlight);
   cursor: no-drop;
-}
+} */
 
 aside.form form button[type="submit"] {
   background: var(--primary-gray);
@@ -196,16 +196,20 @@ aside.form form button[type="submit"]:hover {
 .out-vip {
 }
 
-.in-vip {
+button.in-vip.bip {
   background-color: var(--primary-highlight);
+  border: 2px solid grey;
 }
 
-.bounce {
+button.bounce {
   color: var(--secondary-highlight);
+  border: 2px solid grey;
 }
 .guest-list {
   color: var(--danger);
 }
+
+button#clear, button#submit, button.out-vip{border:2px solid grey}
 
 /* Responsive */
 @media (max-width: 950px) {
