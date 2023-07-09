@@ -9,7 +9,7 @@ const createGuestTemplate = ({ image, name, isVip }) => `
       <button class="vip ${isVip ? "in-vip" : "out-vip"}">${
   isVip ? "Remove VIP" : "Make VIP"
 }</button>
-      <button type="button" class="bounce">Bounce</button>
+      <button type="button" class="bounce">Remove Guest</button>
   </div>
 `;
 
